@@ -91,6 +91,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid transparent;
+    border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(14, 14, 14, 0.5);
 }
 .card img{
@@ -108,3 +109,152 @@
     font-size: 400;
     color: rgba(14, 14, 14, 0.7);
 }
+.vision{
+    height:124px ;
+    width:1280px ;
+    margin:30px 160px ;
+    border: 1px solid transparent;
+}
+.vision h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.vision p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 20px;
+}
+.vision-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 20px;
+   
+}
+.vision1{
+    margin: 30px 160px;
+}
+.card1{
+    height: 325px;
+    width: 550px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(14, 14, 14, 0.5);
+    background-color: #98b8f0cc;
+   
+}
+.card2{
+    height: 325px;
+    width: 550px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(14, 14, 14, 0.5);
+    background-color: rgba(182, 235, 211, 0.9);
+}
+
+.card3{
+    height: 325px;
+    width: 550px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(14, 14, 14, 0.5);
+    background-color: rgba(235, 217, 175, 0.9);
+}
+.btn1{
+    background-color: #5490f5;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+.btn1:hover{
+    background-color: blueviolet;
+    transition: 3s;
+}
+.btn2{
+    background-color: #09a15c;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color:darkslategrey;
+    transition: 3s;
+}
+.btn3{
+    background-color: #ffd55d;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+.btn3:hover{
+    background-color:rosybrown;
+    transition: 3s;
+}
+.card1 p{
+    font-size:16px;
+    margin-bottom: 15px;
+}
+.card1 h4{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card2 p{
+    font-size:16px;
+    margin-bottom: 15px;
+}
+.card2 h4{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card3 p{
+    font-size:16px;
+    margin-bottom: 15px;
+}
+.card3 h4{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.quote{
+    height: 250px;
+    width: 1232px;
+   margin: 30px 160px;
+    border: 1px solid transparent;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:  top left;
+    padding: 25px;
+    box-shadow: 2px 2px 2px rgba(14, 14, 14, 0.5); 
+
+}
+.quote-container p{
+    font-size: 20px;
+    
+    margin-bottom: 20px;
+}
+.quote-container h4{
+    font-size: 25px;
+    font-size: bold;
+    margin-bottom: 20px;
+}
+
+
